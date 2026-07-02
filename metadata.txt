@@ -1,0 +1,21 @@
+[general]
+name=HandModel
+qgisMinimumVersion=3.22
+qgisMaximumVersion=3.99
+version=1.1.0
+Icon: icon.png
+author=Ivan Listo (Cemaden)
+email=ivan.listo@cemaden.gov.br
+homepage=https://github.com/ivanlisto/HandModelPlugin
+tracker=https://github.com/ivanlisto/HandModelPlugin/issues
+repository=https://github.com/ivanlisto/HandModelPlugin
+tags=hydrology,geomorphology,DEM,slope,drainage,QGIS
+experimental=False
+deprecated=False
+
+description=QGIS plugin for hydrological and geomorphological analysis using DEMs, with slope quartiles and drainage extraction.
+description_pt=Plugin para QGIS que facilita análises hidrológicas e geomorfológicas a partir de DEMs, com slope em quartis e drenagem automática.
+
+about=HandModel Plugin is a QGIS extension designed to support hydrological and geomorphological analysis using digital elevation models (DEMs). It provides slope calculation in degrees or percentage with automatic quartile symbology, drainage network extraction using GRASS algorithms, workspace integration to save results as GeoTIFF, simple dialogs for parameter selection and progress monitoring, and automation to add outputs directly to the QGIS project.
+about_pt=HandModel Plugin é uma extensão para o QGIS desenvolvida para facilitar análises hidrológicas e geomorfológicas a partir de modelos digitais de elevação (DEM). O plugin organiza os resultados em um workspace definido pelo usuário e adiciona automaticamente as camadas geradas ao projeto aberto no QGIS, já com simbologia aplicada. Principais funcionalidades: cálculo de declividade em graus ou percentual com simbologia automática em quartis; extração da rede de drenagem a partir de DEMs com algoritmos GRASS; integração com workspace para salvar resultados em GeoTIFF; interface amigável para seleção de parâmetros e acompanhamento do progresso; automação para carregar camadas diretamente no projeto QGIS.
+
