@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+.env
+.venv/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs e temporários
+*.log
+*.bak
+*.tmp
+
+# QGIS project files (não versionar projetos locais)
+*.qgz
+*.qgs
+
+# Build e distribuição
+build/
+dist/
+*.egg-info/
+*.zip
+
+# Ícones e imagens (se não quiser versionar)
+icons/
+*.png
+
+# Arquivos de backup
+*.old
+*.save
